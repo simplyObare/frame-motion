@@ -1,6 +1,7 @@
 import './App.css'
-import ExitandEnterAnimation from './framer-components/ExitandEnterAnimation'
-import { GestureButton } from './framer-components/GestureButton'
+import { DraggableDiv } from './framer-components/DraggableDiv'
+// import ExitandEnterAnimation from './framer-components/ExitandEnterAnimation'
+// import { GestureButton } from './framer-components/GestureButton'
 // import { ProgressiveBar } from './framer-components/ProgressiveBar'
 
 export default function App() {
@@ -10,9 +11,10 @@ export default function App() {
         Framer Motion Components
       </h1>
       {/* <ProgressiveBar />*/}
-      <ExitandEnterAnimation />
+      {/* <ExitandEnterAnimation />
 
-      <GestureButton />
+      <GestureButton /> */}
+      <DraggableDiv />
     </div>
   )
 }
