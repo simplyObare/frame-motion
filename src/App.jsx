@@ -1,5 +1,6 @@
 import './App.css'
-import { DraggableDiv } from './framer-components/DraggableDiv'
+import { EmojisAnimation } from './framer-components/EmojisAnimation'
+// import { DraggableDiv } from './framer-components/DraggableDiv'
 // import ExitandEnterAnimation from './framer-components/ExitandEnterAnimation'
 // import { GestureButton } from './framer-components/GestureButton'
 // import { ProgressiveBar } from './framer-components/ProgressiveBar'
@@ -14,7 +15,8 @@ export default function App() {
       {/* <ExitandEnterAnimation />
 
       <GestureButton /> */}
-      <DraggableDiv />
+      {/* <DraggableDiv /> */}
+      <EmojisAnimation />
     </div>
   )
 }
