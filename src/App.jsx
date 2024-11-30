@@ -1,5 +1,6 @@
 import './App.css'
-import { ProgressiveBar } from './framer-components/ProgressiveBar'
+import ExitandEnterAnimation from './framer-components/ExitandEnterAnimation'
+// import { ProgressiveBar } from './framer-components/ProgressiveBar'
 
 export default function App() {
   return (
@@ -7,7 +8,8 @@ export default function App() {
       <h1 className="text-center text-4xl semi-bold">
         Framer Motion Components
       </h1>
-      <ProgressiveBar />
+      {/* <ProgressiveBar />*/}
+      <ExitandEnterAnimation />
     </div>
   )
 }
