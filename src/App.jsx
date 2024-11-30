@@ -1,5 +1,6 @@
 import './App.css'
 import ExitandEnterAnimation from './framer-components/ExitandEnterAnimation'
+import { GestureButton } from './framer-components/GestureButton'
 // import { ProgressiveBar } from './framer-components/ProgressiveBar'
 
 export default function App() {
@@ -10,6 +11,8 @@ export default function App() {
       </h1>
       {/* <ProgressiveBar />*/}
       <ExitandEnterAnimation />
+
+      <GestureButton />
     </div>
   )
 }
